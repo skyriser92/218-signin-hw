@@ -11,7 +11,7 @@
 <body>
 
 <div style="width:400px; margin:auto">
-  <h2>Sign Up Form</h2>
+  <h2 style="text-align:center">Sign Up Form</h2>
   
   <form action="/action_page.php">
     <div class="form-group">
@@ -27,12 +27,25 @@
       <input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
     </div>
     <div class="form-group">
-      <label for="pwd">Password:</label>
-      <input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pwd">
+      <label for="phone">Phone Number:</label>
+      <input type="text" class="form-control" id="phone" placeholder="Enter Phone" name="phone">
     </div>
-    <div class="checkbox">
-      <label><input type="checkbox" name="remember"> Remember me</label>
+	<div class="form-group">
+      <label for="Bday">Birthday:</label>
+      <input type="date" class="form-control" id="Bday" placeholder="Enter Birthday" name="Bday">
     </div>
+	<label>Gender:</label>
+    <div class="radio">
+      <label><input type="radio" name="male">Male</label>
+    </div>
+	<div class="radio">
+      <label><input type="radio" name="female">Female</label>
+    </div>
+	<div class="radio">
+      <label><input type="radio" name="other">Other</label>
+    </div>
+    <button
+    <button
     <button type="submit" class="btn btn-default">Submit</button>
   </form>
 </div>
